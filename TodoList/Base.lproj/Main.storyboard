@@ -89,7 +89,7 @@
             </objects>
             <point key="canvasLocation" x="730.43478260869574" y="97.767857142857139"/>
         </scene>
-        <!--Add Notes View Controller-->
+        <!--Add Item-->
         <scene sceneID="oV5-6J-X9a">
             <objects>
                 <viewController storyboardIdentifier="addNoteVC" id="X6a-Z6-D7X" customClass="AddNotesViewController" customModule="TodoList" customModuleProvider="target" sceneMemberID="viewController">
@@ -158,7 +158,7 @@
                             <constraint firstItem="Fdv-8C-O1E" firstAttribute="trailing" secondItem="Qe8-Fi-CI3" secondAttribute="trailing" constant="20" id="pqp-JP-SsI"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="msG-Xf-sz6">
+                    <navigationItem key="navigationItem" title="Add Item" id="msG-Xf-sz6">
                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="UDU-xR-crf">
                             <connections>
                                 <action selector="cancelButtonPressed:" destination="X6a-Z6-D7X" id="7q0-Fi-Rqd"/>

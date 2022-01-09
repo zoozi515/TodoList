@@ -24,7 +24,7 @@ class AddNotesViewController: UIViewController {
         super.viewDidLoad()
 
         //#5 Set title
-        //navigationController?.navigationBar.topItem?.title = "Add Item"
+        //self.navigationController?.navigationBar.topItem?.title = "Add Item"
         
         /*Make the text view not scrolled*/
         descriptionTextView.isScrollEnabled = false
